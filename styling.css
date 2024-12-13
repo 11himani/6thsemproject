@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700&display=swap');
+* {
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the navigation bar */
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+}
+
+.logo {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li {
+  position: relative;
+}
+
+nav ul li a {
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #fff;
+}
+
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+}
+
+nav ul ul li {
+  width: 200px;
+}
+
+nav ul li:hover > ul {
+  display: inherit;
+}
+
+/* Style the search bar */
+nav input[type="text"] {
+  padding: 6px 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+}
+.navbar li a:hover {
+  text-decoration: underline;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: #f2f2f2;
+  }
+  
+  .hero-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .hero-image {
+    flex: 0 0 50%;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .hero-text {
+    flex: 0 0 50%;
+    margin-left: 50px;
+  }
+  
+  .hero-text h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-text p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .hero-text .btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    align-items: center;
+  }
+  
+  .hero-text .btn:hover {
+    background-color: #0056b3;
+  }
+  /* Style the features section */
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 50px;
+    background-color: #fff;
+  }
+  
+  .feature {
+    width: 180px;
+    height: 320px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+  }
+  
+  
+  .feature img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+  }
+  
+  .feature h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .feature .btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .feature .btn:hover {
+    background-color: #0056b3;
+  }
+  .destinations {
+    text-align: center;
+    padding: 50px;
+    background-color: #f2f2f2;
+  }
+  
+  .destinations h2 {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+  
+  .destination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  
+  .destination-item {
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .destination-item img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .destination-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .destination-item .btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    width: 70px;
+    height: 20px;
+  }
+  
+  .destination-item .btn:hover {
+    background-color: #0056b3;
+  }
+  .packages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    }
+    
+    .packages .package {
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    }
+    .packages .package h1 {
+    font-size: 14px;
+    }
+    .packages .package img {
+      width: 200px;
+      height: auto;
+      border-radius: 4px;
+      margin-bottom: 20px;
+    }
+    
+    .packages .package h2 {
+      font-size: 13px;
+      margin-bottom: 10px;
+    }
+    
+    .packages .package p {
+      margin-bottom: 12px;
+      font-size: 12px;
+    }
+    
+    .packages .package .btn {
+      display: inline-block;
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 4px;
+      size: 20px;
+    }
+    
+    .packages .package .btn:hover {
+      background-color: #0056b3;
+    }
+
+/* Existing CSS styles for other elements */
+
+/* Styles for the "Book Tour" button */
+.book-tour-btn {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.book-tour-btn:hover {
+  background-color: #0056b3;
+}
+/* Footer Styling */
+footer {
+  background-color: #333; /* Change the background color as needed */
+  color: white; /* Text color for the footer */
+  padding: 20px 0;
+}
+
+footer .footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer h3 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul li {
+  margin-bottom: 5px;
+}
+
+footer ul li a {
+  color: white; /* Link color in the footer */
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Style for Follow Us Links */
+.footer-column a {
+  color: #fff; /* Link color for the Follow Us section */
+  text-decoration: none;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.footer-column a:hover {
+  text-decoration: underline;
+}
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+}
