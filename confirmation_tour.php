@@ -50,7 +50,7 @@ if (isset($_POST['confirm_booking'])) {
     $totalPrice = $_POST['total_price'];
 
     // Connect to your database (Replace 'DB_HOST', 'DB_USERNAME', 'DB_PASSWORD', and 'DB_NAME' with your actual database credentials)
-    $connection = mysqli_connect('LocalHost', 'hemu12', 'hemu1234', 'ota');
+    $connection = mysqli_connect('LocalHost', 'root', '', 'Travel');
 
     // Check if the database connection was successful
     if (!$connection) {
@@ -74,7 +74,7 @@ if (isset($_POST['confirm_booking'])) {
      $mail->isSMTP();
      $mail->Host = 'smtp.gmail.com'; // Replace with your SMTP server host
      $mail->SMTPAuth = true;
-     $mail->Username = 'bhandarihemu88@gmail.com'; // Replace with your SMTP username
+     $mail->Username = 'thapahimani123@gmail.com'; // Replace with your SMTP username
      $mail->Password = 'rnboooqzzhjseywo'; // Replace with your SMTP password
      $mail->SMTPSecure = 'ssl';
      $mail->Port = '465';

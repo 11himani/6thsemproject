@@ -128,7 +128,7 @@
         <!-- Contact Column -->
         <div class="footer-column">
             <h3>Contact Us</h3>
-            <p>Email: Bhandarihemu88@gmail.com</p>
+            <p>Email: thapahimani123@gmail.com</p>
             <p>Phone: 9812481005</p>
         </div>
 

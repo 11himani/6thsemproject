@@ -155,13 +155,13 @@ function sendConfirmationEmail($guest_name, $guest_email, $hotel_name, $check_in
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com'; // Replace with your SMTP server host
     $mail->SMTPAuth = true;
-    $mail->Username = 'bhandarihemu88@gmail.com'; // Replace with your SMTP username
+    $mail->Username = 'thapahimani123@gmail.com'; // Replace with your SMTP username
     $mail->Password = 'rnboooqzzhjseywo'; // Replace with your SMTP password
     $mail->SMTPSecure = 'ssl';
     $mail->Port = 465;
 
     // Set email data
-    $mail->setFrom('bhandarihemu88@gmail.com', 'Travel Agency'); // Replace with your email and name
+    $mail->setFrom('thapahimani123@gmail.com', 'Travel Agency'); // Replace with your email and name
     $mail->addAddress($guest_email, $guest_name); // Set recipient email and name
     $mail->isHTML(true);
 
@@ -179,7 +179,7 @@ function sendConfirmationEmail($guest_name, $guest_email, $hotel_name, $check_in
 // Check if the hotel_id parameter is passed in the URL
 if (isset($_GET['hotel_id'])) {
     // Connect to your database (Replace 'DB_HOST', 'DB_USERNAME', 'DB_PASSWORD', and 'DB_NAME' with your actual database credentials)
-    $connection = mysqli_connect('LocalHost', 'hemu12', 'hemu1234', 'ota');
+    $connection = mysqli_connect('LocalHost', 'root', '', 'Travel');
 
     // Check if the database connection was successful
     if (!$connection) {

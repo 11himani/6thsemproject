@@ -177,7 +177,7 @@ ktm h1 {
         <!-- Contact Column -->
         <div class="footer-column">
             <h3>Contact Us</h3>
-            <p>Email: Bhandarihemu88@gmail.com</p>
+            <p>Email: thapahimani123@gmail.com</p>
             <p>Phone: 0912481005</p>
         </div>
 
@@ -193,6 +193,6 @@ ktm h1 {
     <div class="footer-bottom">
         <p>&copy; 2023 Travel Agency. All rights reserved.</p>
     </div>
-</footer>
+</footer>  
             </body>
             </html>

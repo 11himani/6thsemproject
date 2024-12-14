@@ -15,7 +15,7 @@ if (isset($_POST['submit_booking'])) {
     $passenger_email = $_POST['passenger_email'];
 
     // Connect to your database (Replace 'DB_HOST', 'DB_USERNAME', 'DB_PASSWORD', and 'DB_NAME' with your actual database credentials)
-    $connection = mysqli_connect('LocalHost', 'hemu12', 'hemu1234', 'ota');
+    $connection = mysqli_connect('LocalHost', 'root', '', 'Travel');
 
     // Check if the database connection was successful
     if (!$connection) {

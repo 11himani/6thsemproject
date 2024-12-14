@@ -10,7 +10,7 @@ if (!isset($_SESSION["admin_id"])) {
 }
 
 // Connect to the database (Replace 'DB_HOST', 'DB_USERNAME', 'DB_PASSWORD', and 'DB_NAME' with your actual database credentials)
-$connection = mysqli_connect('LocalHost', 'hemu12', 'hemu1234', 'ota');
+$connection = mysqli_connect('LocalHost', 'root', '', 'Travel');
 if (!$connection) {
     die("Database connection failed: " . mysqli_connect_error());
 }
@@ -245,7 +245,7 @@ if (isset($_GET['action']) && isset($_GET['id'])) {
         <!-- Contact Column -->
         <div class="footer-column">
             <h3>Contact Us</h3>
-            <p>Email: Bhandarihemu88@gmail.com</p>
+            <p>Email: thapahimani123@gmail.com</p>
             <p>Phone: 0912481005</p>
         </div>
 
