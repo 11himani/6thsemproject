@@ -65,7 +65,7 @@ if (isset($_POST['submit_booking'])) {
         $mail->Host = 'smtp.gmail.com'; // Replace with your SMTP server address
         $mail->Port = 465; // Replace with your SMTP port number
         $mail->SMTPAuth = true;
-        $mail->Username = 'bhandarihemu88@gmail.com'; // Replace with your email address
+        $mail->Username = 'thapahimani123@gmail.com'; // Replace with your email address
         $mail->Password = 'rnboooqzzhjseywo'; // Replace with your email password
         $mail->SMTPSecure = 'ssl'; // Use 'tls' or 'ssl' for Gmail
 
